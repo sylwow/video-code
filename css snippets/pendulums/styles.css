@@ -1,9 +1,9 @@
 :root {
   --color: white;
   --background-color: #202020;
-  --ball-size: 0.5rem;
-  --line-len: 1.5rem;
-  --gap: 0.8rem;
+  --ball-size: 1rem;
+  --line-len: 8rem;
+  --gap: 3rem;
   --duration: 0.5s;
 }
 
@@ -20,7 +20,7 @@ body {
 .line {
   background-color: var(--color);
   height: var(--line-len);
-  width: 0.05rem;
+  width: 0.07rem;
 }
 
 .ball {
